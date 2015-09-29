@@ -16,3 +16,52 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #ccc;
+}
+
+.wordmark {
+    width: 5em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav {
+    margin: 0;
+    padding: 0.5em 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav li {
+    display: block;
+    padding: 1em;
+}
+
+@media only screen and (min-width:25em) {
+ 
+    .nav li {
+        display: inline-block;
+    }
+    
+}
+
+@media only screen and (min-width:38em) {
+ 
+    .nav {
+        text-align: left;
+        padding: 1.5em 0;
+    }
+    
+}
