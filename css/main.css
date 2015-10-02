@@ -49,6 +49,18 @@ header {
     padding: 1em;
 }
 
+.billboard {
+    background-image: url(../images/billboard.svg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: center center;
+}
+
+.billboard-type {
+    text-align: center;
+    padding-top: 5em;
+}
+
 @media only screen and (min-width:25em) {
  
     .nav li {
