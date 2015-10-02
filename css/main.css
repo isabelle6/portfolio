@@ -52,13 +52,13 @@ header {
 .billboard {
     background-image: url(../images/billboard.svg);
     background-repeat: no-repeat;
-    background-size: 100vh;
-    background-position: center center;
+    background-position: center;
+    background-size: cover;
 }
 
 .billboard-type {
     text-align: center;
-    padding-top: 5em;
+    height: 50vh;
 }
 
 @media only screen and (min-width:25em) {
