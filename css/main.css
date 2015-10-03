@@ -78,7 +78,14 @@ header {
 
 footer {
     background-color: #ccc;
-    margin: .25em;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.description {
+    padding: 0;
 }
 
 @media only screen and (min-width:25em) {
@@ -94,6 +101,14 @@ footer {
     .nav {
         text-align: left;
         padding: 1.5em 0;
+    }
+    
+    .project-title {
+        text-align: left;
+    }
+    
+    .description {
+        padding: 0 1em;
     }
     
 }
