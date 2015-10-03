@@ -76,6 +76,11 @@ header {
     opacity: .75;
 }
 
+footer {
+    background-color: #ccc;
+    margin: .25em;
+}
+
 @media only screen and (min-width:25em) {
  
     .nav li {
