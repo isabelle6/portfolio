@@ -65,11 +65,13 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 50vh;
+    padding: 5em 0;
 }
 
 .billboard-type {
     text-align: center;
-    height: 50vh;
+    font-size: 3em;
 }
 
 .portfolio-piece:hover {
@@ -92,6 +94,14 @@ footer {
  
     .nav li {
         display: inline-block;
+    }
+    
+    .billboard {
+        padding: 2em 0;
+    }
+    
+    .billboard-type {
+        font-size: 5em;
     }
     
 }
