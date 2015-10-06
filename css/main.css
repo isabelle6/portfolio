@@ -110,6 +110,19 @@ footer {
     padding: 0;
 }
 
+.headlines {
+    margin: 0;
+}
+
+.email {
+    color: black;
+}
+
+.email:hover {
+    color: grey;
+    text-decoration: none;
+}
+
 @media only screen and (min-width:25em) {
  
     .nav li {
