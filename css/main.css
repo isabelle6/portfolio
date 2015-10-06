@@ -98,8 +98,32 @@ header {
     opacity: .75;
 }
 
-footer {
+.nav-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-footer {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
     background-color: #ccc;
+}
+
+.nav-footer li {
+    display: block;
+    padding: 1em;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active,
+.nav-footer .nav-current:link,
+.nav-footer .nav-current:visited {
+    color: #fff;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
 }
 
 .project-title {
@@ -129,6 +153,10 @@ footer {
         display: inline-block;
     }
     
+    .nav-footer li {
+        display: inline-block;
+    }
+    
     .billboard {
         padding: 2em 0;
     }
@@ -144,6 +172,11 @@ footer {
     .nav {
         text-align: left;
         padding: 1.5em 0;
+    }
+    
+    .nav-footer {
+        text-align: left;
+        padding: 0.5em 0 0 0;
     }
     
     .project-title {
