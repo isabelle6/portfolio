@@ -85,8 +85,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    padding: 5em 0;
 }
 
 .billboard-type {
@@ -163,6 +161,10 @@ body {
     
     .billboard-type {
         font-size: 5em;
+    }
+    
+    .piece {
+        padding: 0 0.5em;
     }
     
 }
