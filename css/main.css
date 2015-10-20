@@ -80,6 +80,12 @@ body {
     border-top: solid 1px;
 }
 
+.nav-current {
+    color: #fff;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+}
+
 .billboard {
     background-image: url(../images/billboard.svg);
     background-repeat: no-repeat;
