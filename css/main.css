@@ -22,6 +22,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+a:focus {
+    outline: 3px solid #000;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
