@@ -1,0 +1,10 @@
+#TEAM
+
+Designer & Developer: Isabelle Fortier <isabelle@isabellefortier.ca>
+Site: http://isabellefortier.ca
+Location: Ottawa, Ontario
+
+# TECHNOLOGY
+
+Brackets
+Git + GitHub
