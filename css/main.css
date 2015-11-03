@@ -47,7 +47,7 @@ a:focus {
 }
 
 .masthead {
-    background-color: #ccc;
+    background-color: #64c29a;
 }
 
 .wordmark {
@@ -91,15 +91,19 @@ a:focus {
 }
 
 .billboard {
+    /*
     background-image: url(../images/billboard.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    */
+    background-color: #286876;
 }
 
 .billboard-type {
     text-align: center;
     font-size: 3em;
+    color: #fff;
 }
 
 .portfolio-piece:hover {
@@ -116,7 +120,7 @@ a:focus {
     padding: 0;
     list-style-type: none;
     text-align: center;
-    background-color: #ccc;
+    background-color: #64c29a;
 }
 
 .nav-footer li {
@@ -136,6 +140,7 @@ a:focus {
 
 .project-title {
     text-align: center;
+    color: #e16b26;
 }
 
 .description {
@@ -144,6 +149,7 @@ a:focus {
 
 .headlines {
     margin: 0;
+    color: #e16b26;
 }
 
 .email {
@@ -151,7 +157,7 @@ a:focus {
 }
 
 .email:hover {
-    color: grey;
+    color: #e16b26;
     text-decoration: none;
 }
 
