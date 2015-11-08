@@ -110,6 +110,14 @@ a:focus {
     opacity: .75;
 }
 
+.portfolio-piece {
+    width: 100%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
 .nav-footer a {
     text-decoration: none;
     color: #000;
