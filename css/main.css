@@ -214,3 +214,19 @@ a:focus {
     }
     
 }
+
+@media only screen and (min-width:60em) {
+    
+    .description {
+        max-width: 75%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    .project-title {
+        text-align: center;
+    }
+    
+}
