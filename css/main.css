@@ -149,6 +149,7 @@ a:focus {
 .project-title {
     text-align: center;
     color: #e16b26;
+    font-size: 4em;
 }
 
 .description {
