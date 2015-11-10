@@ -107,7 +107,7 @@ a:focus {
 }
 
 .portfolio-piece:hover {
-    opacity: .75;
+    opacity: .60;
 }
 
 .portfolio-piece {
@@ -188,6 +188,7 @@ a:focus {
     }
     
     .piece {
+        margin: 0;
         padding: 0 0.5em;
     }
     
@@ -211,6 +212,11 @@ a:focus {
     
     .description {
         padding: 0 1em;
+    }
+    
+    .piece-spacing {
+        margin: 0;
+        padding: 0 0.5em 0.5em 0.5em;
     }
     
 }
