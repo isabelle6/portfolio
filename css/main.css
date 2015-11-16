@@ -47,14 +47,15 @@ a:focus {
 }
 
 .masthead {
-    background-color: #64c29a;
+    background-color: #e2e2e2;
 }
 
 .wordmark {
-    width: 5em;
+    width: 10em;
     height: auto;
     display: block;
     margin: 0 auto;
+    padding: 1em;
 }
 
 .nav a {
@@ -118,6 +119,16 @@ a:focus {
     width: 100%;
 }
 
+.title-main-page {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.title-main-page:hover {
+    color: #e06b26;
+}
+
 .nav-footer a {
     text-decoration: none;
     color: #000;
@@ -128,7 +139,7 @@ a:focus {
     padding: 0;
     list-style-type: none;
     text-align: center;
-    background-color: #64c29a;
+    background-color: #e2e2e2;
 }
 
 .nav-footer li {
