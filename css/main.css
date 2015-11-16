@@ -47,7 +47,7 @@ a:focus {
 }
 
 .masthead {
-    background-color: #e2e2e2;
+    background-color: #caddd3;
 }
 
 .wordmark {
@@ -139,7 +139,7 @@ a:focus {
     padding: 0;
     list-style-type: none;
     text-align: center;
-    background-color: #e2e2e2;
+    background-color: #caddd3;
 }
 
 .nav-footer li {
@@ -158,9 +158,8 @@ a:focus {
 }
 
 .project-title {
-    text-align: center;
     color: #e16b26;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .description {
@@ -201,7 +200,11 @@ a:focus {
     
     .piece {
         margin: 0;
-        padding: 0 0.5em;
+        padding: 0.5em;
+    }
+    
+    .project-title {
+        font-size: 3em;
     }
     
 }
@@ -219,7 +222,7 @@ a:focus {
     }
     
     .project-title {
-        text-align: left;
+
     }
     
     .description {
@@ -231,6 +234,18 @@ a:focus {
         padding: 0 0.5em 0.5em 0.5em;
     }
     
+    .photo-of-me {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .about-me {
+        max-width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+    
 }
 
 @media only screen and (min-width:60em) {
@@ -239,12 +254,14 @@ a:focus {
         max-width: 75%;
         display: block;
         margin: 0 auto;
-        text-align: center;
+
         padding-bottom: 1em;
     }
     
     .project-title {
         text-align: center;
     }
+
+
     
 }
