@@ -92,12 +92,6 @@ a:focus {
 }
 
 .billboard {
-    /*
-    background-image: url(../images/billboard.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    */
     background-color: #286876;
 }
 
@@ -169,6 +163,10 @@ a:focus {
 .headlines {
     margin: 0;
     color: #e16b26;
+}
+
+.photo-of-me {
+    width: 100%;
 }
 
 .email {
