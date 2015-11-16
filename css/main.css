@@ -220,7 +220,7 @@ a:focus {
     }
     
     .project-title {
-
+        padding: 0 0.5em;
     }
     
     .description {
