@@ -1,7 +1,8 @@
 ---
 permalink: /404.html
 ---
-
+<!DOCTYPE html>
+<html lang="en-ca">  
 <head>
     <meta charset="utf-8">
     <title>Page Not Found</title>
@@ -9,11 +10,20 @@ permalink: /404.html
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Oops!</h1>
-    <h2>That page could not be found.</h2>
-</body>
+    
+<header class="grid masthead">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+        <a class="wordmark" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/wordmark.svg" alt="Wordmark"></a>
+    </div>
+</header>
+    
+<main>
+    <h1 class="push-1-2 gutter-1-2 pad-t error-page-title">Well this is awkward...</h1>
+    <div class="gutter-1-2">
+        <p class="description">It seems the page you requested couldn't be found. It's called a 404 error. No worries though, just head over to the <a class="email" href="{{site.baseurl}}/">homepage</a> to get back on track.</p>
+    </div>
+</main>
 
 <footer class="nav-footer">
     <div class="island-1-2">
@@ -22,3 +32,6 @@ permalink: /404.html
         <p class="micro push-0">© 2015 Isabelle Fortier</p>
     </div>
 </footer>
+    
+</body>
+</html>
