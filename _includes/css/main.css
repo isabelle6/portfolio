@@ -181,7 +181,6 @@ a:focus {
 .error-page-title {
     color: #e16b26;
     font-size: 2em;
-    padding-top: 2em;
     text-align: center;
 }
 
@@ -220,7 +219,6 @@ a:focus {
     
     .error-page-title {
         font-size: 3em;
-        padding: 1em 1em 0;
     }
     
 }
@@ -264,7 +262,7 @@ a:focus {
     
     .error-page-image {
     width: 60%;
-}
+    }
     
 }
 
