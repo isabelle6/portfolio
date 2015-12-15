@@ -182,6 +182,13 @@ a:focus {
     color: #e16b26;
     font-size: 2em;
     padding-top: 2em;
+    text-align: center;
+}
+
+.error-page-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width:25em) {
@@ -255,6 +262,10 @@ a:focus {
         margin: 0 auto;
     }
     
+    .error-page-image {
+    width: 60%;
+}
+    
 }
 
 @media only screen and (min-width:60em) {
@@ -271,10 +282,8 @@ a:focus {
         text-align: center;
     }
     
-    .error-page-title {
-        text-align: center;
+    .error-page-image {
+    width: 40%;
     }
-
-
     
 }
