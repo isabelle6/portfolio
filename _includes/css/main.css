@@ -249,7 +249,7 @@ a:focus {
     }
     
     .photo-of-me {
-        max-width: 50%;
+        max-width: 100%;
         display: block;
         margin: 0 auto;
     }
@@ -257,7 +257,7 @@ a:focus {
     .about-me {
         max-width: 75%;
         display: block;
-        margin: 0 auto;
+        margin: auto;
     }
     
     .error-page-image {
@@ -282,6 +282,21 @@ a:focus {
     
     .error-page-image {
     width: 40%;
+    }
+    
+}
+
+@media print {
+    
+    .wordmark,
+    .nav,
+    .nav-footer {
+        display: none;
+    }
+    
+    a::after {
+        content: "<" attr(href) ">";
+        text-decoration: underline;
     }
     
 }
