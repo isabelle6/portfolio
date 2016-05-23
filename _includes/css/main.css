@@ -101,6 +101,11 @@ a:focus {
     color: #fff;
 }
 
+.index-intro {
+    text-align: center;
+    font-size: 1.25em;
+}
+
 .portfolio-piece:hover {
     opacity: .60;
 }
@@ -267,6 +272,10 @@ a:focus {
 }
 
 @media only screen and (min-width:60em) {
+    
+    .index-intro {
+    font-size: 1.5em;
+    }
     
     .description {
         max-width: 75%;
