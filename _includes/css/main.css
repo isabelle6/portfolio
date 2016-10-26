@@ -118,6 +118,18 @@ a:focus {
     width: 100%;
 }
 
+.width-70 {
+    width: 100%;
+}
+
+.border {
+    border: 2px solid #000;
+}
+
+.border-change {
+    border: none;
+}
+
 .title-main-page {
     text-decoration: none;
     text-align: center;
@@ -287,6 +299,17 @@ a:focus {
     
     .project-title {
         text-align: center;
+    }
+    
+    .width-70 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .border-change {
+        border: 2px solid #000;
     }
     
     .error-page-image {
