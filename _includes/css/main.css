@@ -207,6 +207,11 @@ a:focus {
     margin: 0 auto;
 }
 
+.xs-hidden-m-visible {
+    display: none;
+    visibility: hidden;
+}
+
 @media only screen and (min-width:25em) {
  
     .nav li {
@@ -278,7 +283,12 @@ a:focus {
     }
     
     .error-page-image {
-    width: 60%;
+        width: 60%;
+    }
+
+    .xs-hidden-m-visible {
+        display: block;
+        visibility: visible;
     }
     
 }
